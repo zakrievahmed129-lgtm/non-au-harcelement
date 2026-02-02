@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contactez-nous pour parler du harcèlement. Nous sommes là pour vous écouter en toute confidentialité.">
+    <meta name="keywords" content="contact, harcèlement, aide, soutien, formulaire">
+    <title>Nous Contacter | Stop au Harcèlement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" style="animation-delay: 0s;">
+        <a href="index.html" class="nav-logo">
+            <span class="icon">💜</span>
+            <span>Stop Harcèlement</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="contact.html">Nous Contacter</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-container">
+        <div class="contact-wrapper">
+            <!-- Left Column - Info -->
+            <div class="contact-info">
+                <h1>Parle-nous <span class="highlight">💜</span></h1>
+                <p>
+                    Remplis ce formulaire pour nous faire part de ta situation.
+                    Nous te répondrons dans les plus brefs délais avec toute la bienveillance que tu mérites.
+                </p>
+
+                <div class="contact-features">
+                    <div class="contact-feature">
+                        <div class="contact-feature-icon">⏱️</div>
+                        <span>Réponse sous 24-48h</span>
+                    </div>
+                    <div class="contact-feature">
+                        <div class="contact-feature-icon">🔒</div>
+                        <span>Message 100% confidentiel</span>
+                    </div>
+                    <div class="contact-feature">
+                        <div class="contact-feature-icon">💜</div>
+                        <span>Écoute sans jugement</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column - Form -->
+            <div class="contact-form-container">
+                <!-- The Form -->
+                <form id="contact-form" action="https://formspree.io/f/mrelylaa" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="prenom">Prénom *</label>
+                            <input type="text" id="prenom" name="prenom" class="form-input" placeholder="Ton prénom"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="nom">Nom (optionnel)</label>
+                            <input type="text" id="nom" name="nom" class="form-input" placeholder="Ton nom">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email *</label>
+                        <input type="email" id="email" name="email" class="form-input"
+                            placeholder="ton.email@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="age">Âge (optionnel)</label>
+                        <input type="number" id="age" name="age" class="form-input" placeholder="Ton âge" min="1"
+                            max="120">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="type">Type de harcèlement</label>
+                        <select id="type" name="type" class="form-select">
+                            <option value="">-- Sélectionne une option --</option>
+                            <option value="verbal">Moqueries / Insultes</option>
+                            <option value="physique">Violence physique</option>
+                            <option value="cyber">Cyberharcèlement</option>
+                            <option value="exclusion">Exclusion / Mise à l'écart</option>
+                            <option value="rumeurs">Rumeurs / Diffamation</option>
+                            <option value="vol">Vol / Racket</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="message">Ton message *</label>
+                        <textarea id="message" name="message" class="form-textarea"
+                            placeholder="Raconte-nous ce qui se passe... Nous sommes là pour t'écouter."
+                            required></textarea>
+                    </div>
+
+                    <!-- Hidden field for subject line -->
+                    <input type="hidden" name="_subject" value="Nouveau message - Stop au Harcèlement">
+
+                    <button type="submit" class="btn btn-primary form-submit" style="opacity: 1; animation: none;">
+                        <span>📨</span>
+                        <span>Envoyer mon message</span>
+                    </button>
+                </form>
+
+                <!-- Success Message (shown after submit) -->
+                <div class="success-message" id="success-message">
+                    <div class="success-icon">✓</div>
+                    <h3>Message envoyé !</h3>
+                    <p>Merci de ta confiance. Nous allons te répondre très bientôt. 💜</p>
+                    <a href="index.html" class="btn btn-secondary"
+                        style="margin-top: 1.5rem; opacity: 1; animation: none;">
+                        Retour à l'accueil
+                    </a>
+                </div>
+
+                <p class="form-note">
+                    <span class="lock">🔒</span> Tes informations sont protégées et restent confidentielles.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>💜 Stop au Harcèlement — Un espace sûr pour tous</p>
+        <p style="margin-top: 0.5rem;">En cas d'urgence, appelez le <strong>3020</strong> (numéro national contre le
+            harcèlement)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

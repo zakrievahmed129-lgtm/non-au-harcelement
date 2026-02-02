@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Un espace sûr pour parler du harcèlement. Tu n'es pas seul(e), nous sommes là pour t'écouter et t'aider.">
+    <meta name="keywords" content="harcèlement, aide, soutien, écoute, contact, témoin">
+    <title>Stop au Harcèlement | Tu n'es pas seul(e)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-overlay" id="loader">
+        <div class="loader-container">
+            <div class="loader-heart">💜</div>
+            <div class="loader-rings">
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+                <div class="ring ring-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="index.html" class="nav-logo">
+            <span class="icon">💜</span>
+            <span>Stop Harcèlement</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="contact.html">Nous Contacter</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="dot"></span>
+                <span>Espace d'écoute et de soutien</span>
+            </div>
+
+            <h1 class="hero-title">
+                Tu n'es <span class="highlight">pas seul(e)</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Face au harcèlement, nous sommes là pour t'écouter, te soutenir et t'accompagner.
+                N'hésite pas à nous contacter, ta parole est importante.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn btn-primary">
+                    <span>💬</span>
+                    <span>Nous contacter</span>
+                </a>
+                <a href="#about" class="btn btn-secondary">
+                    <span>En savoir plus</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="about">
+        <h2 class="section-title">Pourquoi nous contacter ?</h2>
+        <p class="section-subtitle">
+            Nous offrons un espace bienveillant et confidentiel pour toutes les victimes de harcèlement.
+        </p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon purple">🤝</div>
+                <h3>Écoute bienveillante</h3>
+                <p>Une oreille attentive sans jugement. Nous sommes là pour t'écouter et te comprendre, peu importe ta
+                    situation.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon teal">🔒</div>
+                <h3>100% Confidentiel</h3>
+                <p>Ta vie privée est notre priorité. Toutes les conversations restent strictement confidentielles et
+                    sécurisées.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon pink">💪</div>
+                <h3>Accompagnement personnalisé</h3>
+                <p>Nous t'aidons à trouver des solutions adaptées à ta situation et te guidons vers les ressources
+                    appropriées.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="features" id="ressources">
+        <h2 class="section-title">Ressources & Conseils</h2>
+        <p class="section-subtitle">
+            Que tu sois victime, témoin, parent ou même harceleur sans le savoir, voici comment agir.
+        </p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon purple">🆘</div>
+                <h3>Si tu es victime</h3>
+                <ul style="color: var(--color-text-muted); font-size: 0.95rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;">✓ Parle à un adulte de confiance (parent, prof, CPE)</li>
+                    <li style="margin-bottom: 0.5rem;">✓ Garde des preuves (captures d'écran, messages)</li>
+                    <li style="margin-bottom: 0.5rem;">✓ Ne reste pas seul(e), le silence nourrit le harcèlement</li>
+                    <li style="margin-bottom: 0.5rem;">✓ Ce n'est PAS de ta faute</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon teal">👀</div>
+                <h3>Si tu es témoin</h3>
+                <ul style="color: var(--color-text-muted); font-size: 0.95rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;">✓ Ne reste pas silencieux, signale ce que tu vois</li>
+                    <li style="margin-bottom: 0.5rem;">✓ Soutiens la victime, montre-lui qu'elle n'est pas seule</li>
+                    <li style="margin-bottom: 0.5rem;">✓ Ne partage jamais de contenu humiliant</li>
+                    <li style="margin-bottom: 0.5rem;">✓ Parle à un adulte même anonymement</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon pink">👨‍👩‍👧</div>
+                <h3>Si tu es parent</h3>
+                <ul style="color: var(--color-text-muted); font-size: 0.95rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;">✓ Écoute sans minimiser ni dramatiser</li>
+                    <li style="margin-bottom: 0.5rem;">✓ Contacte l'école et le CPE</li>
+                    <li style="margin-bottom: 0.5rem;">✓ Documente les faits par écrit</li>
+                    <li style="margin-bottom: 0.5rem;">✓ Envisage un soutien psychologique</li>
+                </ul>
+            </div>
+
+            <div class="feature-card" style="border-color: rgba(231, 76, 60, 0.3);">
+                <div class="feature-icon" style="background: rgba(231, 76, 60, 0.2);">🪞</div>
+                <h3>Et si c'était toi ?</h3>
+                <p style="color: var(--color-text-muted); font-size: 0.9rem; margin-bottom: 0.75rem;">
+                    Parfois, on harcèle <strong>sans même s'en rendre compte</strong>. Pose-toi ces questions :
+                </p>
+                <ul style="color: var(--color-text-muted); font-size: 0.85rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.4rem;">❓ Tu te moques souvent de la même personne ?</li>
+                    <li style="margin-bottom: 0.4rem;">❓ Tu partages des photos/vidéos sans son accord ?</li>
+                    <li style="margin-bottom: 0.4rem;">❓ Tu l'exclus volontairement du groupe ?</li>
+                    <li style="margin-bottom: 0.4rem;">❓ Tu rigoles de "blagues" qui la blessent ?</li>
+                </ul>
+                <p style="color: var(--color-accent); font-size: 0.85rem; margin-top: 0.75rem;">
+                    💡 <strong>Il n'est jamais trop tard pour changer.</strong> Reconnaître ses erreurs, c'est le
+                    premier pas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Numbers -->
+    <section class="features" style="padding-top: 2rem;">
+        <div class="feature-card"
+            style="max-width: 1000px; margin: 0 auto; background: linear-gradient(135deg, rgba(253, 121, 168, 0.1), rgba(108, 92, 231, 0.15));">
+            <h3 style="font-size: 1.3rem; margin-bottom: 1.5rem; text-align: center;">📞 Numéros d'urgence (gratuits &
+                anonymes)</h3>
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem; text-align: center;">
+                <div>
+                    <p style="font-size: 2rem; font-weight: 700; color: var(--color-primary-light);">3020</p>
+                    <p style="color: var(--color-text-muted); font-size: 0.85rem;">Harcèlement scolaire<br>Lun-Ven
+                        9h-20h</p>
+                </div>
+                <div>
+                    <p style="font-size: 2rem; font-weight: 700; color: var(--color-accent);">3018</p>
+                    <p style="color: var(--color-text-muted); font-size: 0.85rem;">Cyberharcèlement<br>7j/7 9h-23h</p>
+                </div>
+                <div>
+                    <p style="font-size: 2rem; font-weight: 700; color: var(--color-hope);">3114</p>
+                    <p style="color: var(--color-text-muted); font-size: 0.85rem;">Prévention suicide<br>24h/24 - 7j/7
+                    </p>
+                </div>
+                <div>
+                    <p style="font-size: 2rem; font-weight: 700; color: #74b9ff;">119</p>
+                    <p style="color: var(--color-text-muted); font-size: 0.85rem;">Enfance en danger<br>24h/24 - 7j/7
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Resources -->
+    <section class="features" style="padding-top: 2rem;">
+        <h2 class="section-title">Autres ressources utiles</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon purple">💻</div>
+                <h3>Sites web d'aide</h3>
+                <ul style="color: var(--color-text-muted); font-size: 0.9rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;">🔗 <a href="https://www.education.gouv.fr/non-au-harcelement"
+                            target="_blank"
+                            style="color: var(--color-primary-light); text-decoration: none;"><strong>nonauharcelement.education.gouv.fr</strong></a>
+                    </li>
+                    <li style="margin-bottom: 0.5rem;">🔗 <a href="https://e-enfance.org" target="_blank"
+                            style="color: var(--color-primary-light); text-decoration: none;"><strong>e-enfance.org</strong></a>
+                    </li>
+                    <li style="margin-bottom: 0.5rem;">🔗 <a href="https://www.filsantejeunes.com" target="_blank"
+                            style="color: var(--color-primary-light); text-decoration: none;"><strong>filsantejeunes.com</strong></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon teal">📱</div>
+                <h3>Applications utiles</h3>
+                <ul style="color: var(--color-text-muted); font-size: 0.9rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;">📲 <a href="https://3018.fr" target="_blank"
+                            style="color: var(--color-accent); text-decoration: none;"><strong>3018</strong></a> —
+                        Signaler du cyberharcèlement</li>
+                    <li style="margin-bottom: 0.5rem;">📲 <a href="https://www.filsantejeunes.com" target="_blank"
+                            style="color: var(--color-accent); text-decoration: none;"><strong>Fil Santé
+                                Jeunes</strong></a> — Chat anonyme</li>
+                    <li style="margin-bottom: 0.5rem;">📲 <a href="https://www.memo-de-vie.org" target="_blank"
+                            style="color: var(--color-accent); text-decoration: none;"><strong>Mémo de Vie</strong></a>
+                        — Garder des preuves</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon pink">🏫</div>
+                <h3>À l'école</h3>
+                <ul style="color: var(--color-text-muted); font-size: 0.9rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;">👤 CPE (Conseiller Principal d'Éducation)</li>
+                    <li style="margin-bottom: 0.5rem;">👤 Infirmier(e) scolaire</li>
+                    <li style="margin-bottom: 0.5rem;">👤 Psychologue scolaire</li>
+                    <li style="margin-bottom: 0.5rem;">👤 Professeur principal</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="features" style="padding-top: 2rem;">
+        <div class="feature-card"
+            style="max-width: 700px; margin: 0 auto; text-align: center; background: linear-gradient(135deg, rgba(108, 92, 231, 0.15), rgba(0, 206, 201, 0.1));">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Prêt(e) à en parler ?</h3>
+            <p style="margin-bottom: 1.5rem;">Le premier pas est souvent le plus difficile, mais c'est aussi le plus
+                important. Nous sommes prêts à t'accueillir.</p>
+            <a href="contact.html" class="btn btn-primary" style="opacity: 1; animation: none;">
+                <span>✉️</span>
+                <span>Envoyer un message</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>💜 Stop au Harcèlement — Un espace sûr pour tous</p>
+        <p style="margin-top: 0.5rem;">En cas d'urgence, appelez le <strong>3020</strong> (numéro national contre le
+            harcèlement)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
